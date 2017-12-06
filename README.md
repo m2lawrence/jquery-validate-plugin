@@ -16,13 +16,13 @@ In the Customers.aspx page, paste in the link to the jquery file:
 <script src="jquery.validate.js"></script>
 
 Step 3. Paste in the web config file:
-<appSettings>
+appSettings>
       <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
-</appSettings>
+/appSettings>
 
 Step 4. 
 Link the text box class ID to the RequiredFieldValidator:
 
 <!-- --------- RequiredFieldValidator ------------ -->
-<asp:RequiredFieldValidator ID="RequiredFieldValidatortxtName" runat="server" Display="Dynamic" 
-ForeColor="Red" ErrorMessage="Name is required" SetFocusOnError="True" ControlToValidate="txtName"></asp:RequiredFieldValidator>
+<asp:RequiredFieldValidator ID="RequiredFieldValidatortxtName" ControlToValidate="txtName" runat="server" Display="Dynamic" 
+ForeColor="Red" ErrorMessage="Name is required" SetFocusOnError="True"></asp:RequiredFieldValidator>
