@@ -17,7 +17,7 @@ In the Customers.aspx page, paste in the link to the jquery file:
 
 Step 3. Paste in the web config file:
 appSettings
-      <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
+     add key="ValidationSettings:UnobtrusiveValidationMode" value="None" /
 /appSettings
 
 Step 4. 
