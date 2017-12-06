@@ -14,8 +14,7 @@ Step 2.
 In the Customers.aspx page, paste in the link to the jquery file:
 <!-- Adding Client-Side jQuery Validation -->
 <script src="jquery.validate.js"></script>
-.
-.
+
 Step 3. Paste in the web config file:
 <appSettings>
       <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
